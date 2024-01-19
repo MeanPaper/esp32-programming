@@ -1,2 +1,3 @@
 # esp32-programming
-My notes for esp32
+My learning notes for esp32<br>
+Programming ESP32 using C++/C
