@@ -13,7 +13,6 @@ void setup() {
     pinMode(p, OUTPUT);
   }
 
-
 }
 
 void loop() {
