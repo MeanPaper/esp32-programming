@@ -11,4 +11,3 @@ Board: ESP32 DEVKITV1
 examples contains the some exercises
 
 Resetting: hold BOOT button and click on EN button
-
