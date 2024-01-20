@@ -1,3 +1,6 @@
+# ESP32 
+Notes on ESP32
+
 ## Pin usage of ESP32
 
 ### Input-only pins
@@ -70,3 +73,8 @@ void        ledcAttachPin(uint8_t pin, uint8_t channel);
 void        ledcDetachPin(uint8_t pin);
 ```
 
+Used LEDC produce PWM:
+1. use `ledcSetup()` establish LEDC channel
+2. use `ledcAttachPin()` map a GPIO pin to LEDC channel
+3. use `ledcWrite(), ledcWriteTone(), ledWriteNote()` setting frequency, or buzzer tone
+4. use `ledDetachPin()` to the mapping of GPIO pins to LEDC channels
