@@ -15,7 +15,7 @@ void setup() {
   WiFi.begin(ssid, password);
   
   // if the network has no password, you can do the following:
-  // WiFi.begin(ssid, password);
+  // WiFi.begin(ssid, NULL);
   
   Serial.println("Start Connection");
   
