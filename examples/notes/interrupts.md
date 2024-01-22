@@ -54,7 +54,7 @@ steps for using hardware timer
 3. setting timer mode: use timerAlarmWrite(), to set the timer to trigger once, or periodically;
 4. enable the timer: use timerAlarmEnable() to enable timer and let the timer start counting.
 
-We can use `ticker.h` to make software timers
+We can use `Ticker.h` to make software timers
 - `detach()`: stop ticker
 - `active()`: check if ticker is active, true = in use
 - `once(n, callback, arg)`: execute callback after n seconds, arg refered to the params in the callback (leave empty means callback has no param)
