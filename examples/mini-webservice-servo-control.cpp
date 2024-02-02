@@ -123,7 +123,6 @@ void loop() {
 
     }
 
-
     // clear header
     header = "";
 
